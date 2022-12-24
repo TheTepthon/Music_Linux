@@ -1,4 +1,4 @@
-name: tepthon Workflow
+name: Music Workflow
 
 on:
     push:
