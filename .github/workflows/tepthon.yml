@@ -27,7 +27,7 @@ jobs:
        - name: cloning tepthon
          continue-on-error: true
          run: |
-           git clone https://${{ secrets.NAME }}:${{ secrets.TOKEN }}@${{ secrets.REPO }} quran
+           git clone https://${{ secrets.NAME }}:${{ secrets.TOKEN }}@${{ secrets.REPO }} music
        - name: Running tepthon
          timeout-minutes: 120
          continue-on-error: true
